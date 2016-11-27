@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>Search Engine Optimization</title>
+    <meta charset="utf-8" />
+    <link href="pptStyles.css" rel="stylesheet" />
+    <script src="jquery.js"></script>
+    <script src="infoScript.js"></script>
+</head>
+<body>
+    <section>
+        <div>
+            <h2>Agendas</h2>
+            <!-- <div id="flip">Background of the Study</div> -->
+            <div class="titleswithDescription" id="flipIntro">Introduction</div>
+            <div id="panelIntro">
+                <h5>
+                    Website<br />
+                    Search Engine Optimization
+                </h5>
+
+            </div><br />
+            <div class="titleswithDescription" id="flipProblem">Problem Statement</div>
+            <div id="panelProblem">
+                <h5>Technical and Non-Technical Problems</h5>
+                Security,Efficiency/ speed rank, File usage / Technology usage,
+                Technology Selection / Developer Best Practices (image types),Page Size,
+                Readability for visually impaired viewers, Number of Domains,Structure/ navigation, Description
+                <h5>Rank of the Website</h5>
+                Global rank, Speed rank, SEO rank, Efficiency for mobile users, Efficiency for Desktop or laptop users
+            </div><br />
+            <div class="titleswithDescription" id="flipPurpose">Objectives</div>
+            <div id="panelPurpose">
+                <h5>Goal <br />Specific Objectives <br />Deliverables</h5>
+            </div><br />
+            <div class="titleswithDescription" id="flipRecommendation">Technical and Managerial Options</div>
+            <div id="panelRecommendation">
+                <h5>Technical Approach <br /> Managerial Approach <br /> Major Tasks <br /> Required Team Members <br /></h5>
+            </div>
+            <br />
+            <div class="titleswithDescription" id="flipConclude">Conclusion &amp; Recommendation</div>
+            <div id="panelConclude">
+                <h5> Conclusion <br /> Recommendation</h5>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function () {
+            $("#flipIntro").click(function () {
+                $("#panelIntro").slideToggle("slow");
+            });
+            $("#flipProblem").click(function () {
+                $("#panelProblem").slideToggle("slow");
+            });
+            $("#flipPurpose").click(function () {
+                $("#panelPurpose").slideToggle("slow");
+            });
+            $("#flipRecommendation").click(function () {
+                $("#panelRecommendation").slideToggle("slow");
+            });
+            $("#flipConclude").click(function () {
+                $("#panelConclude").slideToggle("slow");
+            });
+        });
+    </script>
+</body>
+</html>

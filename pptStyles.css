@@ -1,0 +1,155 @@
+﻿body{
+    margin-left:10%;
+    width:60%;
+
+}
+header,footer{
+background-color:rgba(74, 188, 225, 0.72);
+color:#ffffff;
+}
+footer{
+
+}
+section{
+    background-color:rgba(15, 10, 90, 0.94);
+    color:white;
+    padding:2%;
+}
+img{
+    width:750px;
+    height:375px;
+}
+/*main page*/
+a:hover{
+    font-size:larger;
+    cursor:pointer;
+}
+h1 {
+    text-shadow: 2px 2px red;font-size:27px;
+}
+h3{
+    color:red;
+    text-decoration:underline;
+}
+/*Qualification*/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top:-20%;
+    left:5%;
+    font-size:small;
+    width: 700px;
+    height:600px;
+    background-color:#ffffff;
+    color:#000000;
+    box-shadow: 0px 8px 16px 0px grey;
+    padding: 12px 16px;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+/*agendas styles*/
+.titleswithDescription{
+    
+    font-size:larger;
+    cursor:pointer;
+    margin:1%;
+    border-radius: 25px;
+    box-shadow: 10px 10px grey;
+    background-color:rgba(15, 10, 90, 0.54);
+
+}
+ #flipIntro, #panelIntro, #panelConclude,#flipConclude, #flipProblem, #panelProblem, #flipPurpose, 
+ #panelPurpose,#flipRecommendation, #panelRecommendation, #flipSecurity, 
+ #panelSecurity,#panelDomain, #panelEfficiency,#panelContentSize, #panelTechSelection, #panelPageSize, #panelRead,
+ #panelStructure, #panelDescription,#panelRank, #flipDomain, #flipEfficiency,#flipContentSize, #flipTechSelection, 
+ #flipPageSize, #flipRead,
+ #flipStructure, #flipDescription,#flipRank
+      {
+           
+            text-align:left;
+            font-size:larger;
+            padding-left:50px;
+            
+        }
+
+  #panelIntro, #panelProblem, #panelPurpose, #panelRecommendation, #panelConclude,#panelSecurity,
+  #panelDomain, #panelEfficiency,#panelContentSize, #panelTechSelection, #panelPageSize, #panelRead,
+  #panelStructure, #panelDescription,#panelRank {
+            
+            display: none;
+            margin-left:60px;
+            text-align:left;
+        }
+
+  /*Introduction Styles*/
+    .imageTitle {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+  .imageTitle{
+      border:1px dashed white;
+  }
+.imageTitle .imageDisplayedonHover {
+    visibility: hidden;
+    width: 800px;
+    background-color: black;
+    color: #fff;
+    text-align:left;
+    border-radius: 6px;
+    padding: 5px 0;
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -500px;
+    left: 10%;
+}
+
+.imageTitle:hover .imageDisplayedonHover {
+    visibility: visible;
+}
+/*Problem Statement Page*/
+.problemPage{
+    box-shadow:rgba(77, 74, 74, 0.57) 10px 10px;
+    border-radius:5px 5px 5px 5px;
+    border:2px groove white;
+    margin:2px;
+    width:600px;
+    height:400px;
+    display:inline-block;
+    margin-bottom:20px;
+}
+.problemPage:hover{
+    
+    width:610px;
+    height:410px;
+    box-shadow:2px 2px 2px 2px rgba(230, 229, 229, 0.66);
+}
+.problemPageImage{
+    width:550px;
+    height:375px;
+}
+.problemPageImage:hover{
+    width:570px;
+    height:400px;
+}
+/*Problem Statment page Description Part*/
+.descriptionImage{
+    left:-100px;
+    width:600px;
+}
+.descriptionImage:hover{
+    width:620px;
+    
+}

@@ -1,0 +1,33 @@
+﻿body {
+    
+    color:whitesmoke;
+    background-color:#1b7260;
+}
+.basicSVGDrawing{
+    background-color:#1b7272;
+    padding-bottom:50px;
+    width:200px;
+    height:140px;
+}
+.basicDrawing,basicSVGFilters,basicSVGAnimation{
+    column-count:4;
+    column-rule:2px solid red double;
+    background-color:#1b7272;
+   
+   -webkit-column-count:4;
+   -webkit-column-rule:2px solid red double;
+   
+   
+}
+.svgPath{
+        column-count:4;
+    column-rule:2px solid #808080 double;
+    background-color:#1b7272;
+   
+   -webkit-column-count:4;
+   -webkit-column-rule:2px solid #808080 double;
+   
+   
+}
+
+
